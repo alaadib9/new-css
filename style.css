@@ -28,8 +28,8 @@ z-index: 999;
     padding: 0 50px; /* top and buttom are zero and right is 50px */
 }
 #logo {
-    background-color: coral;
-    background-image: linear-gradient(to top ,#f8f8f8 3% , #e76060 100% );
+  
+    background-image: linear-gradient(to top ,#e0eee0 3% , #94eb7e 90% );
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -54,7 +54,7 @@ z-index: 999;
 }
 
 .link {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 234, 234, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,11 +84,11 @@ z-index: 999;
     border: none;
     outline: none;
     border-radius: 5px;
-    background: #ff57578e;
+    background: #37cc938e;
     color: azure;
 }
 .button:hover {
-    background: rgb(148, 231, 52);
+    background: rgb(232, 236, 228);
     opacity: 0.4;
     transition: all 0.3s ease;
 }
@@ -100,7 +100,7 @@ z-index: 999;
 }
 
 .main {
-    background-color: #141413;
+    background-color: #000000;
 }
 
 .container_two {
@@ -115,13 +115,12 @@ z-index: 999;
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
-    background-color: #141414;
+    background-color: #e9e1e5;
 
 }
 .contant h1 {
-    font-size:70px;
-    background-color: coral;
-    background-image: linear-gradient(to top ,#f8f8f8 3% , #e76060 100% );
+    font-size:60px;
+    background-image: linear-gradient(to top ,#050705 3% , #48a031 90% );
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -131,23 +130,24 @@ z-index: 999;
 } 
 .contant h2 {
     font-size:30px;
-    background-color: rgb(204, 93, 52);
-    background-image: linear-gradient(to top ,#562fc0 3% , #eed3d3 100% );
+    background-image: linear-gradient(to top ,#000000 3% , #1e8f56 100% );
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color :transparent;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 20px;
 }
-
+/* 
 .contant p {
     margin-top: 10px;
     font-size: 30px;
     font-weight: 650;
     font-family: 'Kumbh Sans', sans-serif;
-    color: #f8f8f8;
+    color: #000000;
 
-}
+} */
 
 .imag-contaner {
     text-align: center;
@@ -156,4 +156,5 @@ z-index: 999;
 .mainImage {
     height: 80%;
     width: 80%;
+    margin-top: 20px;
 }
