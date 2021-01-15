@@ -1,0 +1,159 @@
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+   font-family: 'kumbh sans', sans-serif ;
+
+}
+.navbar {
+background-color: black;
+height: 80px;
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: 22px;
+position: sticky;
+top: 0;
+z-index: 999;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 88;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px; /* top and buttom are zero and right is 50px */
+}
+#logo {
+    background-color: coral;
+    background-image: linear-gradient(to top ,#f8f8f8 3% , #e76060 100% );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color :transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    text-align: center;
+
+}
+
+.iteam {
+  height: 80px;  
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.fas fa-gem {
+    margin-right: 9px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    width: 100%;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #ff57578e;
+    color: azure;
+}
+.button:hover {
+    background: rgb(148, 231, 52);
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background: cornflowerblue;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+
+.main {
+    background-color: #141413;
+}
+
+.container_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 90%;
+    padding: 0;
+    z-index: 0;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    background-color: #141414;
+
+}
+.contant h1 {
+    font-size:70px;
+    background-color: coral;
+    background-image: linear-gradient(to top ,#f8f8f8 3% , #e76060 100% );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color :transparent;
+    font-family: 'Kumbh Sans', sans-serif
+} 
+.contant h2 {
+    font-size:30px;
+    background-color: rgb(204, 93, 52);
+    background-image: linear-gradient(to top ,#562fc0 3% , #eed3d3 100% );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color :transparent;
+}
+
+.contant p {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 650;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #f8f8f8;
+
+}
+
+.imag-contaner {
+    text-align: center;
+}
+
+.mainImage {
+    height: 80%;
+    width: 80%;
+}
